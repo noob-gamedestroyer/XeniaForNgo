@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Xenia For Ngo</string>
+    <string name="home_nav">HomeNav</string>
+    <string name="communities_nav">CommunitiesNav</string>
+    <string name="add_fab">addFab</string>
+    <string name="home">Home</string>
+    <string name="community">Community</string>
+    <string name="what_do_you_want_to_request">What do you want to request?</string>
+    <string name="ask_your_fellow_community_members_anything">Ask your fellow community members anything…</string>
+    <string name="share_with_residents">Share with Residents</string>
+    <string name="share_with_nearby_ngos">Share with Nearby NGOs</string>
+    <string name="enter_the_items_to_donate">Enter the Items To donate…</string>
+    <string name="enter_list_items_with_quantity">Enter list items with quantity…</string>
+    <string name="title_activity_auth">AuthActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="login">NGO Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="enter_your_full_name">Enter Your Name</string>
+    <string name="set_password">Set Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="activity_main">MainActivity</string>
+    <string name="error_input_empty">Text fields cannot be empty</string>
+    <string name="error_not_a_valid_email">Enter a valid email.</string>
+    <string name="success_register">Successfully Registered. LogIn To Continue</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_apartment_name">Enter NGO Name</string>
+    <string name="enter_wing_name">Enter Ngo Registry Number</string>
+    <string name="enter_flat_name">Enter Address</string>
+    <string name="wing_no">Wing %1$s</string>
+    <string name="search_here">Search Here...</string>
+    <string name="example_post_text">This is an Example post Request</string>
+    <string name="upVoted_by_spiderman_and_120_others">upVoted by Akhil and 120 others</string>
+    <string name="example_post_username">Iron Man</string>
+    <string name="delete">delete</string>
+    <string name="comments">comments</string>
+    <string name="upvote">upVote</string>
+    <string name="post_image">postImage</string>
+    <string name="posts">My Posts</string>
+    <string name="follow">Follow</string>
+    <string name="description">Description</string>
+    <string name="username">Username</string>
+    <string name="no_description">No Description</string>
+    <string name="unfollow">UnFollow</string>
+    <string name="enter_comment">Enter comment...</string>
+    <string name="todo">TODO</string>
+    <string name="enter_the_ngo_you_want_to_donate_to">Enter the NGO you want to donate to...</string>
+</resources>

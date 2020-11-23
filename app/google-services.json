@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1065370700423",
+    "firebase_url": "https://accelathon-project.firebaseio.com",
+    "project_id": "accelathon-project",
+    "storage_bucket": "accelathon-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065370700423:android:14125f96edb3a6ce68c622",
+        "android_client_info": {
+          "package_name": "com.gamdestroyerr.accelathonapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065370700423-gcbur3549m1s070g58h1sfq4f8uem3mb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaE8pLsbkWDEZju_6Tm0wup1E3RZDs9-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065370700423-gcbur3549m1s070g58h1sfq4f8uem3mb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065370700423:android:5ca9254a59927f8668c622",
+        "android_client_info": {
+          "package_name": "com.gamdestroyerr.xeniaforngo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065370700423-gcbur3549m1s070g58h1sfq4f8uem3mb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaE8pLsbkWDEZju_6Tm0wup1E3RZDs9-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065370700423-gcbur3549m1s070g58h1sfq4f8uem3mb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
