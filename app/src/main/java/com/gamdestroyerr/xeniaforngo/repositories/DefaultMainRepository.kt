@@ -1,6 +1,6 @@
 package com.gamdestroyerr.xeniaforngo.repositories
 
-import android.os.Bundle
+
 import android.util.Log
 import com.gamdestroyerr.xeniaforngo.model.NgoPost
 import com.gamdestroyerr.xeniaforngo.model.NgoUser
@@ -9,8 +9,6 @@ import com.gamdestroyerr.xeniaforngo.util.safeCall
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.Query
-import com.google.firebase.ktx.Firebase
-import com.google.firebase.storage.ktx.storage
 import kotlinx.coroutines.*
 import kotlinx.coroutines.tasks.await
 
@@ -54,9 +52,6 @@ class DefaultMainRepository : MainRepository {
                     .get()
                     .await()
                     .toObjects(NgoPost::class.java)
-                    .onEach {
-
-                    }
 
             Log.d("TAG", post.toString())
             Resource.Success(post)

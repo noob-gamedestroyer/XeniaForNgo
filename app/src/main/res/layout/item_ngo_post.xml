@@ -3,8 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp"
+    android:layout_margin="12dp"
     app:cardCornerRadius="10dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="@android:color/darker_gray"
     app:cardElevation="5dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
@@ -28,6 +30,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            app:drawableStartCompat="@drawable/ic_round_person_24"
+            android:drawablePadding="5dp"
             android:text="@string/example_post_username"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -46,30 +50,47 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvPostAuthor" />
 
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ic_round_list_alt_24"
+            app:layout_constraintEnd_toStartOf="@+id/tvPostText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view" />
+
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tvPostText"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
             android:layout_margin="8dp"
+            android:layout_marginTop="8dp"
             android:text="@string/example_post_text"
-            app:layout_constraintTop_toBottomOf="@+id/view"
-            tools:layout_editor_absoluteX="8dp" />
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/icon"
+            app:layout_constraintTop_toBottomOf="@+id/view" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tvApartmentText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
             android:layout_margin="8dp"
+            app:drawableStartCompat="@drawable/ic_round_business_24"
+            android:drawablePadding="5dp"
             android:text="apartment Name"
-            app:layout_constraintTop_toBottomOf="@+id/tvPostText"
-            tools:layout_editor_absoluteX="8dp" />
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvPostText" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tvWingNoText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:drawableStartCompat="@drawable/ic_round_add_business_24"
+            android:drawablePadding="5dp"
             android:textSize="18sp"
             android:layout_margin="8dp"
             android:text="Wing No"
@@ -82,6 +103,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:text="flat No"
+            app:drawableStartCompat="@drawable/ic_round_house_24"
+            android:drawablePadding="5dp"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="@+id/tvPhoneNoText"
             app:layout_constraintStart_toStartOf="parent"
@@ -92,6 +115,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:paddingBottom="10dp"
+            app:drawableStartCompat="@drawable/ic_round_local_phone_24"
+            android:drawablePadding="5dp"
             android:text="76298649323"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
